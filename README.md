@@ -1,10 +1,14 @@
 ## Speed Dial extension boilerplate
 
-### Todo: write README
+## Things to keep in mind:
 
 ### License
 
 Please change the `<license>` element in `config.xml` to whatever makes the most sense for your project. As a default, it is set to MIT.
+  
+### options.html
+
+If you don't need a preferences page, delete the options.html file. Otherwise, this is where you can interact with the `widget.preferences` storage object and set the preferences for the extension. Default preferences can be set in `config.xml` as `<preference>` elements.
   
 #### License
 

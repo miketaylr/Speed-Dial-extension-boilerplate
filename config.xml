@@ -6,6 +6,9 @@
   <license href="http://www.opensource.org/licenses/mit-license.php">Distributed under the MIT License.</license>
   <icon src="plate.png"/>
   
+  <!-- an example preference to be manipulated in options.html -->
+  <preference name="foo" value="true" />
+  
   <feature name="opera:speeddial" required="false">
     <!-- link to open when the speed dial is clicked -->
     <param name="url" value="http://dev.opera.com/"/>
