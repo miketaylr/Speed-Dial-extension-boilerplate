@@ -3,6 +3,7 @@
   <name short="">Speed Dial Extension Boilerplate</name>
   <author href="" email="">Your Name</author>
   <description>Your Description</description>
+  <license href="http://www.opensource.org/licenses/mit-license.php">Distributed under the MIT License.</license>
   <icon src="plate.png"/>
   
   <feature name="opera:speeddial" required="false">
