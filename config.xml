@@ -10,8 +10,12 @@
     <param name="url" value="http://dev.opera.com/"/>
   </feature>
   
-  <!-- request for cookie sharing to be enabled in this extension -->
-  <feature name="opera:share-cookies" required="true"/>
-  <!-- list of domains on which cookie sharing will be enabled -->        
-  <access origin="http://example.com" subdomains="true"/>
+  <!-- uncomment for cookie sharing to be enabled in this extension.
+       for example, a Speed Dial extension for reddit.com with shared
+       cookies will allow the number of unread messages to be accessed
+       via their API if the user is logged in -->
+  <!-- <feature name="opera:share-cookies" required="true"/> -->
+  
+  <!-- cookie sharing requires an access directive for the domain -->
+  <!-- <access origin="http://example.com" subdomains="true"/> -->
 </widget>
