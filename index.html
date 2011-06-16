@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <style>
+    /* delete me */
+    body {background: url(plate.png);}
+  </style>
+</head>
+<body>
+<script>
+  (function(){
+    if (opera.contexts.speeddial) {
+      var sd = opera.contexts.speeddial; 
+      // the default title is the extension's <name> in config.xml
+      // uncomment this if you'd like to change it dynamically
+      
+      //sd.title = "Speed Dial Extension";
+      
+      // the default url is the value of <param name=url value='' />
+      // uncomment this if you'd like to change the url programmatically,
+      // or link to page local to the extension 
+      
+      //sd.url = "";
+    }
+  }());
+</script>
+</body>
+</html>

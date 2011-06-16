@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" id="http://example.com/id" defaultlocale="en" viewmodes="minimized" version="0.1">
+  <name short="">Speed Dial Extension Boilerplate</name>
+  <author href="" email="">Your Name</author>
+  <description>Your Description</description>
+  <icon src="plate.png"/>
+  
+  <feature name="opera:speeddial" required="false">
+    <!-- link to open when the speed dial is clicked -->
+    <param name="url" value="http://dev.opera.com/"/>
+  </feature>
+  
+  <!-- request for cookie sharing to be enabled in this extension -->
+  <feature name="opera:share-cookies" required="true"/>
+  <!-- list of domains on which cookie sharing will be enabled -->        
+  <access origin="http://example.com" subdomains="true"/>
+</widget>
