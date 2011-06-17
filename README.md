@@ -4,7 +4,7 @@
 
 ### License
 
-Please change the `<license>` element in `config.xml` to whatever makes the most sense for your project. As a default, it is set to MIT.
+Please change the `<license>` element in `config.xml` to whatever makes the most sense for your project. As a default, it is set to Apache 2.0.
   
 ### options.html
 
