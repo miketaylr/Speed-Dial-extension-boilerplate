@@ -9,7 +9,7 @@
   <!-- an example preference to be manipulated in options.html -->
   <preference name="foo" value="true" />
   
-  <feature name="opera:speeddial" required="false">
+  <feature name="opera:speeddial" required="true">
     <!-- link to open when the speed dial is clicked -->
     <param name="url" value="http://dev.opera.com/"/>
   </feature>
