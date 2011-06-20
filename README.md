@@ -5,6 +5,10 @@
 ### License
 
 Please change the `<license>` element in `config.xml` to whatever makes the most sense for your project. As a default, it is set to Apache 2.0.
+
+### i18n
+
+If you would like to add internationalized content to your Speed Dial Extension, please read Patrick Lauke's [article on dev.opera](http://dev.opera.com/articles/view/creating-multilingual-extensions/).
   
 ### options.html
 
