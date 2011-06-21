@@ -13,6 +13,12 @@ If you would like to add internationalized content to your Speed Dial Extension,
 ### options.html
 
 If you don't need a preferences page, delete the options.html file. Otherwise, this is where you can interact with the `widget.preferences` storage object and set the preferences for the extension. Default preferences can be set in `config.xml` as `<preference>` elements.
+
+### Developer Mode and Packaging it up
+
+During development, it's easiest to just drag and drop the `config.xml` file into the browser to enable "developer mode." At any point you can save your work and reload the extension (from Tools > Extensions > Manage Extensions) to see the changes.
+
+When you're done, put all the files in a `.zip` archive and change the file extension to `.oex`.
   
 #### License
 
